@@ -1,6 +1,7 @@
 <h1><p class="bg-info">メッセージボード</p></h1>
 <% @messages.each do |message| %>
   名前:<%= message.name %>
+  年齢:<%= message.age %>
   内容:<%= message.body %>
   <br>
 <% end %>
